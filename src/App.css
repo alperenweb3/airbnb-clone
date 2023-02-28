@@ -1,8 +1,13 @@
 .container{
-    width: 132rem;
+    width: 75rem;
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
     padding-left: 3rem;
     padding-right: 3rem;
+}
+
+.lr-pad--none{
+  padding-left: 0;
+  padding-right: 0;
 }

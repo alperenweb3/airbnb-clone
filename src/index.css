@@ -1,12 +1,8 @@
 :root{
-  --body-bg : #23252C;
-  --bcard-bg : #1A1B21;
+  --black : #000000;
   --white : #FFFFFF;
   --whitish : #f5f5f5;
   --grey : #DCDCDC;
-  --secondary : #F3BF99;
-
-  --bcard-width : 31.7rem;
 }
 
 *{
