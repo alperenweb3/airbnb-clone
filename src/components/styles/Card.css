@@ -1,0 +1,65 @@
+:root{
+    --card-with:17.5rem;
+}
+
+.card__wrapper{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.card{
+    width: var(--card-with);
+    padding: 3rem 0;
+}
+
+.card__img-container{
+    position: relative;
+}
+
+.card__img{
+    width: var(--card-with);
+}
+
+.card__status{
+    position: absolute;
+    top: .7rem;
+    left: .7rem;
+    background-color: var(--white);
+    padding: .5rem;
+    text-transform: uppercase;
+    border-radius: 5px;   
+}
+
+.card__rating{
+    display: flex;
+    align-items: center;
+    gap: .2rem;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.card__rating-comment-count, .card__location{
+    color: #918E9B;
+}
+
+.card__location::before{
+    content: ".";
+    display: inline-block;
+    margin-right: .2rem;
+    transform: translateY(-18%);
+}
+
+.card__title{
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.card__price{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.card__price-for{
+    font-weight: 300;
+}
