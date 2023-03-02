@@ -2,16 +2,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative;
 }
 
 .hero__img{
-    position:absolute;
     width: 100%;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    padding: 3rem 0;
+    padding: 3rem 1rem;
     object-fit: contain;
 }

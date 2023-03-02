@@ -1,0 +1,15 @@
+.headline * + * {
+    margin-top: 1.5rem;
+}
+
+.heading{
+    font-size: 3.6rem;
+    line-height: 4rem;
+    font-weight: 600;
+}
+
+.lede{
+    font-size: 1.6rem;
+    max-width: 35ch;
+    font-weight: 300;
+}

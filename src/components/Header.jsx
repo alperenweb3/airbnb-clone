@@ -1,6 +1,6 @@
 import React from "react";
 import "./styles/Header.css"
-import logo from "../images/airbnb.svg"
+import logo from "./images/airbnb.svg"
 
 
 function Header(){
