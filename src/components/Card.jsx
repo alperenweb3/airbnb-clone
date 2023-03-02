@@ -24,7 +24,7 @@ function Card(props) {
 
             <div className="card__rating">
               <img src={star} alt="" className="card__star" />
-              <span className="card__rating-point">{props.data.stats.rating}</span>
+              <span className="card__rating-point">{(props.data.stats.rating).toFixed(1)}</span>
               <span className="card__rating-comment-count">({props.data.stats.reviewCount})</span>
               <span className="card__location">{props.data.location}</span>
             </div>
