@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Headline from "./components/Headline";
 import Card from "./components/Card";
+import Footer from "./components/Footer";
 
 function App() {
   const Cards = data.map((CardData) => {
@@ -18,6 +19,7 @@ function App() {
       <div className="container">
         <div className="card__wrapper">{Cards}</div>
       </div>
+      <Footer />
     </div>
   );
 }
